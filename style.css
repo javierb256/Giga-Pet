@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+  }
+  
+  main {
+    display:block;
+    height:175px;
+    margin-top: 50px;
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    border: solid;
+    margin-bottom: 0;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+  
+  .pet-image {
+    height:250px;
+    
+  }
+
+.dashboard{
+  border: solid;
+}
+  
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    position: relative;
+    float:left;
+    padding:10px;
+    margin-left: 450px;
+  }
+  
+  .dashboard {
+    position: relative;
+    float:left;
+    padding:20px;
+    margin-left:400px;
+    
+  }
+  
+  .button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    font-size:15px;
+    background-color: #89eb34;
+    border-color: #89eb34;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+  }
+
+.response{
+  position:relative;
+  margin-left: -50px;gin-left: 300px;
+}
+div.response{
+  display:done;
+  border: solid;
+  border-color:red;
+  margin:100px;
+  padding: 30px;
+}
+div.play-response{
+  display:done;
+  border: solid;
+  border-color:red;
+  margin:100px;
+  padding: 30px;
+}
+
+div.exercise-response{
+  display:done;
+  border: solid;
+  border-color:red;
+  margin:100px;
+  padding: 30px;
+}
+
+div.feed-response{
+  display:done;
+  border: solid;
+  border-color:red;
+  margin:100px;
+  padding: 30px;
+}
+/* .response > p{
+  display: none;
+} */
+#Name{
+  position:relative;
+  margin-left: 110px;
+  font-size: 50px;
+}
